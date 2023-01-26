@@ -14,3 +14,6 @@ git commit -m "message"
 * working directory 
 * staging area
 * commit state
+
+## can add multiple files at once 
+git add <filename1> <filename2> ..
