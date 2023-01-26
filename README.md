@@ -17,3 +17,6 @@ git commit -m "message"
 
 ## can add multiple files at once 
 git add <filename1> <filename2> ..
+
+## even if multiple files are changed we are allowed to add only a few of them.
+git add <filename1>
