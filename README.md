@@ -1,7 +1,8 @@
 # Git Basics
 ## Java brains Git Basic notes
 
-Git status 
+## status 
+git status 
 
 ## stage 
 git add <filename>
