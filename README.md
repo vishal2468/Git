@@ -1,28 +1,39 @@
 # Git Basics
 ## Java brains Git Basic notes
 
-## status 
-git status 
+## see current status 
+```
+git status
+```
 
-## stage 
+## stage your changes
+```
 git add <filename>
+```
 
-## commit 
+## commit your changes
+```
 git commit -m "message"
+```
 
-## three state architecture 
+## Three state architecture 
+
 * working directory 
 * staging area
 * commit state
 
 ## can add multiple files at once 
+```
 git add <filename1> <filename2> ..
+```
 
-## even if multiple files are changed we are allowed to add only a few of them.
+## add only a few changes(files)
+```
 git add <filename1>
+```
 
-## we are not staging files but changes
-modify a file 
+## We are not staging files but changes
+    ->modify a file 
     -> git add <file> 
     -> modify the same file again 
     -> git status 
@@ -31,3 +42,13 @@ modify a file
     -> git add <file> 
     -> git commit 
     -> this will merge the changes and commit the changes
+
+## Type long commit message
+```
+git commit
+```
+
+## See previous commits
+```
+git log
+```
