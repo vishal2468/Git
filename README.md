@@ -7,7 +7,7 @@ git status
 ```
 
 ## stage your changes
-```
+```git:
 git add <filename>
 ```
 
