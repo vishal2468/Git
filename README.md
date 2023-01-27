@@ -87,3 +87,8 @@ git commit --amend
 
 ## amend just the message
 -> use git commit --amend without adding anything in satging area
+
+## show the unstaged changes 
+```
+git diff
+```
