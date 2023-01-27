@@ -1,4 +1,5 @@
 # Git Basics
+
 ## Java brains Git Basic notes
 
 ## see current status 
@@ -97,3 +98,10 @@ git diff
 ```
 git diff --staged
 ```
+
+## prevent a file/folder to be added to repo
+* Add the file/folder in .gitignore file
+* If some file if already in the commits , we cannot simply ignore that file
+* it supports glob format("global pattern match")
+
+
