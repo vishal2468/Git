@@ -52,3 +52,7 @@ git commit
 ```
 git log
 ```
+## See changes in commits
+```
+git log -p
+```
