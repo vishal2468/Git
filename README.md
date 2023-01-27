@@ -83,3 +83,5 @@ git restore <file>..
 ```
 git commit --amend
 ```
+## amend just the message
+-> use git commit --amend without adding anything in satging area
