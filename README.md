@@ -56,3 +56,10 @@ git log
 ```
 git log -p
 ```
+
+## Remove changes to files before staging 
+```
+git checkout -- <file1>
+git checkout -- <file1> <file2>
+git checkout .
+```
