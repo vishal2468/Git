@@ -63,3 +63,23 @@ git checkout -- <file1>
 git checkout -- <file1> <file2>
 git checkout .
 ```
+
+## Unstage changes after staging 
+* Restore specified paths in the working tree with some contents from a restore source
+* restore can do all that checkout can do and more
+```
+git restore --staged <file>
+```
+
+## remove unsatged changes using restore
+```
+git restore <file>..
+```
+
+## amend the previous commit 
+-> add new changes to staging area
+-> git commit --amend
+-> this opens editor and we can even change our commit message
+```
+git commit --amend
+```
