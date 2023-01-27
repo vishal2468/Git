@@ -92,3 +92,8 @@ git commit --amend
 ```
 git diff
 ```
+
+## show the staged changes 
+```
+git diff --staged
+```
