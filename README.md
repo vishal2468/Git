@@ -137,3 +137,7 @@ git checkout <branch-name>
 git checkout -b <new-branch-name>
 ```
 
+## commit and add at the same time 
+```
+git commit -a -m "message"
+```
