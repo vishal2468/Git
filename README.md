@@ -131,5 +131,7 @@ git branch <branch-name>
 ```
 git checkout <branch-name>
 ```
+* we can commit to the new branch. and the state of the pointers will change.
+
 
 
