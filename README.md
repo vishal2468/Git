@@ -104,4 +104,21 @@ git diff --staged
 * If some file if already in the commits , we cannot simply ignore that file
 * it supports glob format("global pattern match")
 
+## commits
+* see commits.png
+* creates something like blockchain.
+* there is id for commit , check sum , hash , and pointer to pvs block.
 
+## branching 
+* see pranch.png
+* we may want to work on multiple issues on a same project in that case branching comes handy.
+
+## lists all the branches in the repo
+```
+git branch
+```
+
+## create a new branch 
+```
+git branch <branch-name>
+```
