@@ -114,6 +114,7 @@ git diff --staged
 * we may want to work on multiple issues on a same project in that case branching comes handy.
 
 ## lists all the branches in the repo
+* current branch name is in green and has "*" before its name.
 ```
 git branch
 ```
@@ -122,3 +123,13 @@ git branch
 ```
 git branch <branch-name>
 ```
+
+* git keeps track of current branch using head pointer.
+* head is a pointer that points to current branch all the time.
+
+## switch between branch 
+```
+git checkout <branch-name>
+```
+
+
