@@ -141,3 +141,8 @@ git checkout -b <new-branch-name>
 ```
 git commit -a -m "message"
 ```
+
+## merge a branch that is behind
+```
+git merge <branch-that-is-ahead>
+```
