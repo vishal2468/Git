@@ -146,7 +146,15 @@ git commit -a -m "message"
 
 ## merge a branch that is behind
 * this is just changing the pointers
+* fast forward strategy is used.
 * the branch that is behind just "fast forwards" the pointer to the ahead branch
 ```
 git merge <branch-that-is-ahead>
+```
+
+## merge two diverged branches
+* this will create a auto commit for merge request and will merge the 2 branches with net total changes.
+* "recursive" strategy is used.
+```
+git merge <branch-that-has-diverged>
 ```
