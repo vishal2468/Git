@@ -158,3 +158,9 @@ git merge <branch-that-is-ahead>
 ```
 git merge <branch-that-has-diverged>
 ```
+
+## important points 
+* head points to pointers of the branches.
+* every commit points to pvs commits 
+* merge commits points to 2 pve commits
+
