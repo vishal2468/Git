@@ -132,4 +132,8 @@ git branch <branch-name>
 git checkout <branch-name>
 ```
 
+## create a new branch and checkout to it at once
+```
+git checkout -b <new-branch-name>
+```
 
