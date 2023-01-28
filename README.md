@@ -141,3 +141,10 @@ git checkout -b <new-branch-name>
 ```
 git commit -a -m "message"
 ```
+
+## merge a branch that is behind
+* this is just changing the pointers
+* the branch that is behind just "fast forwards" the pointer to the ahead branch
+```
+git merge <branch-that-is-ahead>
+```
