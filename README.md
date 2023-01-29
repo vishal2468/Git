@@ -174,3 +174,5 @@ git log --graph
 git branch -d <branch-name>
 ```
 * cannot delete the current branch.
+* this is just deleting the pointers.
+* deleting stream of work is a big deal.
