@@ -181,8 +181,11 @@ git branch -d <branch-name>
 ```
 git checkout <branch-hashcode>
 ```
-this is move the head pointer to the respective commit.
-this state is called detached head state
+* this is move the head pointer to the respective commit.
+* this state is called detached head state.
+* we can create commits in this state , and do experiments.
+* the commits will be lost when we checkout to some branch.
+* we we name the detached head branch a new branch will be created.
 
 ## give name to a detached head state
 ```
