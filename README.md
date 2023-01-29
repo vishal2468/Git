@@ -165,5 +165,12 @@ git merge <branch-that-has-diverged>
 * merge commits points to 2 pve commits
 
 ## graphical view of the branches
-* git log --graph
+```
+git log --graph
+```
 
+## delete branches
+```
+git branch -d <branch-name>
+```
+* cannot delete the current branch.
