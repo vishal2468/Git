@@ -164,3 +164,6 @@ git merge <branch-that-has-diverged>
 * every commit points to pvs commits 
 * merge commits points to 2 pve commits
 
+## graphical view of the branches
+* git log --graph
+
