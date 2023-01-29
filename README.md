@@ -176,3 +176,15 @@ git branch -d <branch-name>
 * cannot delete the current branch.
 * this is just deleting the pointers.
 * deleting stream of work is a big deal.
+
+## go back to a previous commit 
+```
+git checkout <branch-hashcode>
+```
+this is move the head pointer to the respective commit.
+this state is called detached head state
+
+## give name to a detached head state
+```
+git branch <detached-head-branch-name>
+```
