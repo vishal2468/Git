@@ -193,10 +193,12 @@ git branch <detached-head-branch-name>
 ```
 
 ## rebasing
-* this shifts base of a a branch to the <master-branch>
+* this shifts base of the <rebasing-branch>
 * we should run this on the branch whose base we want to change
-* if we run git rebase master on fix branch 
 ```
 git rebase <master-branch>
 ```
-added changes in file for rebasing
+* this will cause the <master-branch> to be behind the <rebasing-branch>
+```
+git merge <rebasing-branch>
+```
