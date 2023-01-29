@@ -191,3 +191,11 @@ git checkout <branch-hashcode>
 ```
 git branch <detached-head-branch-name>
 ```
+
+## rebasing
+* this shifts base of a a branch to the <master-branch>
+* we should run this on the branch whose base we want to change
+* if we run git rebase master on fix branch 
+```
+git rebase <master-branch>
+```
