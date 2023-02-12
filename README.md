@@ -162,7 +162,7 @@ git merge <branch-that-has-diverged>
 ## important points 
 * head points to pointers of the branches.
 * every commit points to pvs commits 
-* merge commits points to 2 pve commits
+* merge commits points to 2 pvs commits
 
 ## graphical view of the branches
 ```
@@ -185,7 +185,7 @@ git checkout <branch-hashcode>
 * this state is called detached head state.
 * we can create commits in this state , and do experiments.
 * the commits will be lost when we checkout to some branch.
-* we we name the detached head branch a new branch will be created.
+* if we name the detached head branch a new branch will be created.
 
 ## give name to a detached head state
 ```
